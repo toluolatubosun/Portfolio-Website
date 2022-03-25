@@ -13,12 +13,12 @@ const Navbar = () => {
                     {/* <!-- logo --> */}
                     <div>
                         <Link href="/">
-                            <img className="h-14 w-14 lg:h-20 lg:w-20 mr-1" src="/blue_background.png" alt="logo" />
+                            <img className="h-16 w-16 lg:h-20 lg:w-20 mr-1" src="/blue_background.png" alt="logo" />
                         </Link>
                     </div>
 
                     {/* <!-- primary nav --> */}
-                    <div className="hidden md:flex items-center space-x-4">
+                    <div className="hidden md:flex items-center space-x-8">
                         <Link href="/" className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">Home</Link>
                         <Link href="/about" className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">About</Link>
                         <Link href="/portfolio" className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">Portfolio</Link>
