@@ -27,8 +27,8 @@ export default function Home() {
 		
 		<div className="mb-8 flex justify-center">
 			<a download href="/Olatubosun_John_Resume.pdf">
-				<button class="bg-gradient-to-br from-primary to-blue-400 text-2xl text-white font-semibold py-6 px-10 rounded inline-flex items-center">
-					<svg class="w-6 h-6 mr-4" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+				<button className="bg-gradient-to-br from-primary to-blue-400  text-xl sm:text-2xl text-white font-semibold py-6 px-10 rounded inline-flex items-center">
+					<svg class="w-5 h-5 sm:w-6 sm:h-6 mr-4" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
 					<span>Download Resume</span>
 				</button>
 			</a>
