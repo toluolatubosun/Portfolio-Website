@@ -15,7 +15,7 @@ const Navbar = () => {
                     
                     {/* <!-- logo --> */}
                     <div>
-                        <Link href="/">
+                        <Link passHref href="/">
                             <div className="h-16 w-16 lg:h-20 lg:w-20 mr-1" >
                                 <Image alt="logo" src={img_logo_blue}/>
                             </div>

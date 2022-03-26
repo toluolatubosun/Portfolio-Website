@@ -1,5 +1,4 @@
 import Typewriter from 'typewriter-effect';
-import { BsDownload } from "react-icons/bs";
 import Image from 'next/image'
 
 // images

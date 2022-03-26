@@ -52,7 +52,7 @@ const Portfolio = ({ portfolios }) => {
                                     <div className="relative py-3">
                                         <div className="absolute inset-0 bg-gradient-to-r from-primary to-blue-400 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
                                         <div className="relative drop-shadow-lg md:rounded-lg">
-                                            <Image src={`/portfolio${portfolio.img}`}/>
+                                            <Image alt="hello" src={`/portfolio${portfolio.img}`}/>
                                         </div>
                                     </div>
                                 </div>
