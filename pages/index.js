@@ -10,7 +10,7 @@ export default function Home() {
       	<main className="bg-white font-open-sans">
 			<div className="container mx-auto px-8 py-24 lg:py-20 relative flex flex-col lg:flex-row items-center">
 				<div className="lg:w-1/2 flex flex-col items-center lg:items-start">
-					<h1 className="text-center lg:text-left text-3xl sm:text-4xl text-gray-700 leading-tight mb-4">Hello, I'm <span className="font-semibold block mt-2 text-primary text-4xl sm:text-5xl">John Olatubosun</span></h1>
+					<h1 className="text-center lg:text-left text-3xl sm:text-4xl text-gray-700 leading-tight mb-4">Hello, I&apos;m <span className="font-semibold block mt-2 text-primary text-4xl sm:text-5xl">John Olatubosun</span></h1>
 					<div className="text-center text-lg lg:text-left sm:text-xl text-gray-500 lg:pr-40 leading-relaxed">
 						<Typewriter
 							options={{
