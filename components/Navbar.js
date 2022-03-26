@@ -1,5 +1,8 @@
 import Link from "next/link"
 import { useState } from "react"
+import Image from "next/image"
+
+import img_logo_blue from "../public/logo/blue_background.png"
 
 const Navbar = () => {
    
@@ -13,7 +16,9 @@ const Navbar = () => {
                     {/* <!-- logo --> */}
                     <div>
                         <Link href="/">
-                            <img className="h-16 w-16 lg:h-20 lg:w-20 mr-1" src="/logo/blue_background.png" alt="logo" />
+                            <div className="h-16 w-16 lg:h-20 lg:w-20 mr-1" >
+                                <Image alt="logo" src={img_logo_blue}/>
+                            </div>
                         </Link>
                     </div>
 

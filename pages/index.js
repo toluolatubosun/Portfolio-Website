@@ -1,5 +1,9 @@
 import Typewriter from 'typewriter-effect';
 import { BsDownload } from "react-icons/bs";
+import Image from 'next/image'
+
+// images
+import img_programming from '../public/programming.svg'
 
 export default function Home() {
   return (
@@ -20,7 +24,9 @@ export default function Home() {
 				</div>
 
 				<div className="w-full sm:w-2/3 mt-10 lg:mr-8">
-					<img className="w-full" src="/programming.svg"/>
+					<div className="w-full">
+						<Image src={img_programming} alt="programming" />
+					</div>
 				</div>
 			</div>
       	</main>

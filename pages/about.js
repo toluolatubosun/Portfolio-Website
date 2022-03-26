@@ -1,4 +1,10 @@
-import { FaSpellCheck, FaRocket, FaRegLaughBeam, FaCheckCircle } from "react-icons/fa";
+import Image from "next/image"
+
+// Images
+import img_accept from '../public/about/accept.svg'
+import img_computer from '../public/about/computer.svg'
+import img_mouse_arrow from '../public/about/mouse_arrow.svg'
+import img_man from '../public/about/man.svg'
 
 const About = () => {
     return ( 
@@ -9,7 +15,9 @@ const About = () => {
                 <p className="text-center text-xl">the story...</p>
 
                 <div className="md:flex md:mx-20 mx-8 md:justify-items-center md:items-center md:grid md:grid-cols-3 mt-12">
-                    <img className="mx-auto opacity-75 mb-8 md:mb-0 w-2/4 md:w-1/4 md:col-span-1" src="/about/man.svg"/>
+                    <div className="mx-auto opacity-75 mb-8 md:mb-0 w-2/4 md:w-1/4 md:col-span-1">
+                        <Image alt="man" src={img_man}/>
+                    </div>
 
                     <div className="leading-8 md:col-span-2 text-center md:text-left text-lg">
                         <p>I am a Full Stack developer with 4 years of expreience</p>
@@ -29,8 +37,9 @@ const About = () => {
                     <div className="md:col-span-1">
                         <div className="grid justify-items-center mb-8">
                             <div>
-                                <img className="mx-auto w-2/3 md:w-2/4" src="/about/computer.svg"/>
-                                {/* <FaSpellCheck size={120} className="text-secondary text-8xl md:text-9xl"/> */}
+                                <div className="mx-auto w-2/3 md:w-2/4">
+                                    <Image alt="computer" src={img_computer}/>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -46,8 +55,9 @@ const About = () => {
                     <div className="md:col-span-1">
                         <div className="grid justify-items-center mb-8">
                             <div>
-                                <img className="mx-auto w-2/3 md:w-2/4" src="/about/mouse_arrow.svg"/>
-                                {/* <FaRocket className="text-secondary text-8xl md:text-9xl"/> */}
+                                <div className="mx-auto w-2/3 md:w-2/4">
+                                    <Image alt="mouse_arrow" src={img_mouse_arrow}/>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -63,8 +73,9 @@ const About = () => {
                     <div className="md:col-span-1">
                         <div className="grid justify-items-center mb-8">
                             <div>
-                                <img className="mx-auto w-2/3 md:w-2/4" src="/about/accept.svg"/>
-                                {/* <FaRegLaughBeam className="text-secondary text-8xl md:text-9xl"/> */}
+                                <div className="mx-auto w-2/3 md:w-2/4">
+                                    <Image alt="accept" src={img_accept}/>
+                                </div>
                             </div>
                         </div>
                     </div>
