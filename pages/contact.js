@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from 'next/image'
 
 import img_mention from '../public/contact/mention.svg'
-import Img_location_pin from '../public/contact/location_pin.svg'
+import img_location_pin from '../public/contact/location_pin.svg'
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -51,31 +51,33 @@ const Contact = () => {
                 <h1 className="text-5xl text-center font-semibold text-primary tracking-wider self-center"><span className="text-gray-700">Contact</span> me</h1>
                 <p className="text-center text-xl">get in touch...</p>
 
-                <div className="mx-10 md:mx-40 flex justify-center shadow-md py-8">
-                    <div className="inline-flex items-center space-x-4">
-                        <div className="w-1/12">
+                {/* Cards */}
+                <div className="mx-10 md:mx-32 md:mb-8 md:flex md:justify-center shadow-md py-8 mt-10">
+                    <div className="sm:inline-flex sm:items-center mx-4 space-x-4 mb-10 md:mb-0">
+                        <div className="w-3/12 sm:w-1/12 ml-2">
                             <Image alt="email" src={img_mention}/>
                         </div>
-                        
+
                         <div>
-                            <h2 className="text-primary text-xl">Email</h2>
-                            <p className="text-gray-700 text-lg">toluolatubosun@gmail.com</p>
+                            <h2 className="text-primary text-medium text-xl">Email</h2>
+                            <p className="text-gray-700 text-semibold text-lg">toluolatubosun@gmail.com</p>
                         </div>
                     </div>
 
-                    <div className="inline-flex items-center space-x-4">
-                        <div className="w-1/12">
-                            <Image alt="email" src={img_location_pin}/>
+                    <div className="sm:inline-flex sm:items-center mx-4 space-x-4 mb-10 md:mb-0">
+                        <div className="w-2/12 sm:w-1/12 ml-2">
+                            <Image alt="location_pin" src={img_location_pin}/>
                         </div>
 
                         <div>
-                            <h2 className="text-primary text-xl">Location</h2>
-                            <p className="text-gray-700 text-lg">Lagos / Nigeria</p>
+                            <h2 className="text-primary text-medium text-xl">Location</h2>
+                            <p className="text-gray-700 text-semibold text-lg">Lagos / Nigeria</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="mx-10 md:mx-40 mb-16">
+                {/* Contact Form */}
+                <div className="mx-10 md:mx-32 mb-16">
                     <form onSubmit={HandleSubmit}>
                         <div className="md:grid md:grid-cols-2 gap-x-8">
                             <div className="mt-8">
@@ -116,7 +118,6 @@ const Contact = () => {
                                 </div>
                             </div>
                         
-
                             <div className="mt-8 md:col-span-2">
                                 <label className="uppercase block text-sm font-semibold text-gray-700">Subject</label>
                                 <div className="mt-1">

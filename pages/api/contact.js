@@ -14,10 +14,11 @@ export default async function handler(req, res) {
                 user: "toluolatubosun@gmail.com",
                 pass: process.env.SMTP_PASSWORD,
             },
-            tls: {
-                // do not fail on invalid certs
-                rejectUnauthorized: false,
-            },
+            // For localhost
+            // tls: {
+            //     // do not fail on invalid certs
+            //     rejectUnauthorized: false,
+            // },
         });
         
         const mailOptions = {
