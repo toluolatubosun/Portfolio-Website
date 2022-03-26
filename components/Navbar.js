@@ -24,10 +24,10 @@ const Navbar = () => {
 
                     {/* <!-- primary nav --> */}
                     <div className="hidden md:flex items-center space-x-8">
-                        <Link href="/" className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">Home</Link>
-                        <Link href="/about" className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">About</Link>
-                        <Link href="/portfolio" className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">Portfolio</Link>
-                        <Link href="/contact" className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">Contact</Link>
+                        <Link href="/" passHref className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">Home</Link>
+                        <Link href="/about" passHref className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">About</Link>
+                        <Link href="/portfolio" passHref className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">Portfolio</Link>
+                        <Link href="/contact" passHref className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">Contact</Link>
                     </div>
 
                     {/* <!-- mobile button goes here --> */}
@@ -43,10 +43,10 @@ const Navbar = () => {
             
             {/* <!-- mobile menu --> */}
             <div className={mobileClicked ? "mobile-menu md:hidden" : "mobile-menu hidden md:hidden"}> 
-                <Link href="/"><p className="block py-2 px-4 text-m hover:bg-gray-200">Home</p></Link>
-                <Link href="/about"><p className="block py-2 px-4 text-m hover:bg-gray-200">About</p></Link>
-                <Link href="/portfolio"><p className="block py-2 px-4 text-m hover:bg-gray-200">Portfolio</p></Link>
-                <Link href="/contact"><p className="block py-2 px-4 text-m hover:bg-gray-200">Contact</p></Link>
+                <Link href="/" passHref><p className="block py-2 px-4 text-m hover:bg-gray-200">Home</p></Link>
+                <Link href="/about" passHref><p className="block py-2 px-4 text-m hover:bg-gray-200">About</p></Link>
+                <Link href="/portfolio" passHref><p className="block py-2 px-4 text-m hover:bg-gray-200">Portfolio</p></Link>
+                <Link href="/contact" passHref><p className="block py-2 px-4 text-m hover:bg-gray-200">Contact</p></Link>
             </div>
         </nav>
     );

@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="my-7 text-base text-color f-f-l">
                     <ul className="md:flex items-center">
                         <li className="md:mr-6 cursor-pointer pt-4 lg:py-0 text-center text-white">
-                            <a className="md:flex md:items-center" target="_blank" href="https://twitter.com/king_tolu_7">
+                            <a className="md:flex md:items-center" rel="noreferrer" target="_blank" href="https://twitter.com/king_tolu_7">
                                 <div className="grid justify-items-center">
                                     <FaTwitterSquare size={40}/>
                                 </div>
@@ -18,7 +18,7 @@ const Footer = () => {
                             </a>
                         </li>
                         <li className="md:mr-6 cursor-pointer pt-4 lg:py-0 text-center text-white">
-                            <a className="md:flex md:items-center" target="_blank" href="https://github.com/toluolatubosun">
+                            <a className="md:flex md:items-center" rel="noreferrer" target="_blank" href="https://github.com/toluolatubosun">
                                 <div className="grid justify-items-center">
                                     <FaGithubSquare size={40}/>
                                 </div>
@@ -26,7 +26,7 @@ const Footer = () => {
                             </a>
                         </li>
                         <li className="md:mr-6 cursor-pointer pt-4 lg:py-0 text-center text-white">
-                            <a className="md:flex md:items-center" target="_blank" href="https://www.linkedin.com/in/john-olatubosun/">
+                            <a className="md:flex md:items-center" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/john-olatubosun/">
                                 <div className="grid justify-items-center">
                                     <FaLinkedin size={40}/>
                                 </div>
@@ -34,7 +34,7 @@ const Footer = () => {
                             </a>
                         </li>
                         <li className="md:mr-6 cursor-pointer pt-4 lg:py-0 text-center text-white">
-                            <a className="md:flex md:items-center" target="_blank" href="https://www.instagram.com/king_tolu_/">
+                            <a className="md:flex md:items-center" rel="noreferrer" target="_blank" href="https://www.instagram.com/king_tolu_/">
                                 <div className="grid justify-items-center">
                                     <FaInstagramSquare size={40}/>
                                 </div>
