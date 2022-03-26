@@ -1,12 +1,21 @@
 import Link from "next/link"
 import { useState } from "react"
+import { useEffect } from 'react'
+import { useRouter } from 'next/router'
 import Image from "next/image"
 
 import img_logo_blue from "../public/logo/blue_background.png"
 
 const Navbar = () => {
+    const router = useRouter()
    
     const [mobileClicked, setmobileClicked] = useState(false)
+
+    useEffect(() => {
+        router.events.on('routeChangeComplete', (url, { shallow }) => {
+            setmobileClicked(false)
+        })
+    }, [])
 
     return ( 
         <nav className="bg-primary text-white lg:text-lg fixed inset-x-0 z-10">
@@ -43,10 +52,10 @@ const Navbar = () => {
             
             {/* <!-- mobile menu --> */}
             <div className={mobileClicked ? "mobile-menu md:hidden" : "mobile-menu hidden md:hidden"}> 
-                <Link href="/" passHref><p className="block py-2 px-4 text-m hover:bg-gray-200">Home</p></Link>
-                <Link href="/about" passHref><p className="block py-2 px-4 text-m hover:bg-gray-200">About</p></Link>
-                <Link href="/portfolio" passHref><p className="block py-2 px-4 text-m hover:bg-gray-200">Portfolio</p></Link>
-                <Link href="/contact" passHref><p className="block py-2 px-4 text-m hover:bg-gray-200">Contact</p></Link>
+                <Link href="/" passHref><p className="block py-2 px-4 text-m hover:bg-white hover:text-primary">Home</p></Link>
+                <Link href="/about" passHref><p className="block py-2 px-4 text-m hover:bg-white hover:text-primary">About</p></Link>
+                <Link href="/portfolio" passHref><p className="block py-2 px-4 text-m hover:bg-white hover:text-primary">Portfolio</p></Link>
+                <Link href="/contact" passHref><p className="block py-2 px-4 text-m hover:bg-white hover:text-primary">Contact</p></Link>
             </div>
         </nav>
     );
