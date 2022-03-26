@@ -9,7 +9,7 @@ const About = () => {
                 <p className="text-center text-xl">the story...</p>
 
                 <div className="md:flex md:mx-20 mx-8 md:justify-items-center md:items-center md:grid md:grid-cols-3 mt-12">
-                    <img className="mx-auto opacity-75 mb-8 md:mb-0 w-2/4 md:w-1/4 md:col-span-1" src="/man.svg"/>
+                    <img className="mx-auto opacity-75 mb-8 md:mb-0 w-2/4 md:w-1/4 md:col-span-1" src="/about/man.svg"/>
 
                     <div className="leading-8 md:col-span-2 text-center md:text-left text-lg">
                         <p>I am a Full Stack developer with 4 years of expreience</p>
@@ -29,7 +29,7 @@ const About = () => {
                     <div className="md:col-span-1">
                         <div className="grid justify-items-center mb-8">
                             <div>
-                                <img className="mx-auto w-2/3 md:w-2/4" src="/computer.svg"/>
+                                <img className="mx-auto w-2/3 md:w-2/4" src="/about/computer.svg"/>
                                 {/* <FaSpellCheck size={120} className="text-secondary text-8xl md:text-9xl"/> */}
                             </div>
                         </div>
@@ -46,7 +46,7 @@ const About = () => {
                     <div className="md:col-span-1">
                         <div className="grid justify-items-center mb-8">
                             <div>
-                                <img className="mx-auto w-2/3 md:w-2/4" src="/mouse_arrow.svg"/>
+                                <img className="mx-auto w-2/3 md:w-2/4" src="/about/mouse_arrow.svg"/>
                                 {/* <FaRocket className="text-secondary text-8xl md:text-9xl"/> */}
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const About = () => {
                     <div className="md:col-span-1">
                         <div className="grid justify-items-center mb-8">
                             <div>
-                                <img className="mx-auto w-2/3 md:w-2/4" src="/accept.svg"/>
+                                <img className="mx-auto w-2/3 md:w-2/4" src="/about/accept.svg"/>
                                 {/* <FaRegLaughBeam className="text-secondary text-8xl md:text-9xl"/> */}
                             </div>
                         </div>

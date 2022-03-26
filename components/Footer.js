@@ -3,6 +3,9 @@ import { FaTwitterSquare, FaInstagramSquare, FaGithubSquare, FaLinkedin } from "
 const Footer = () => {
     return ( 
         <footer className="bg-primary w-full py-12 px-4 m-auto">
+
+            <h1 className="focus:outline-none text-2xl text-white font-black text-center">John Olatubosun</h1>
+
             <div aria-label="footer" className="focus:outline-none mx-auto container flex flex-col items-center justify-center">
                 <div className="my-7 text-base text-color f-f-l">
                     <ul className="md:flex items-center">
