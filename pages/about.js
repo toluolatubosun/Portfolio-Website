@@ -21,7 +21,7 @@ const About = () => {
 
                 <div className="md:flex md:mx-20 mx-8 md:justify-items-center md:items-center md:grid md:grid-cols-3 mt-12">
                     <div className="mx-auto opacity-75 mb-8 md:mb-0 w-2/4 md:w-1/4 md:col-span-1">
-                        <Image alt="man" src={img_man}/>
+                        <Image alt="man" src={img_man} priority/>
                     </div>
 
                     <div className="leading-8 md:col-span-2 text-center md:text-left text-lg">

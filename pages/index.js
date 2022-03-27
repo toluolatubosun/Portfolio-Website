@@ -30,7 +30,7 @@ export default function Home() {
 
 				<div className="w-full sm:w-2/3 mt-10 lg:mr-8">
 					<div className="w-full">
-						<Image src={img_programming} alt="programming" />
+						<Image src={img_programming} alt="programming" priority />
 					</div>
 				</div>
 			</div>

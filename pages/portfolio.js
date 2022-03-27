@@ -21,7 +21,7 @@ const Portfolio = () => {
                             <div className="mb-8 md:mb-20 md:grid md:grid-cols-5 md:gap-x-8" key={item.id}>
                                 
                                 <div className="md:col-span-3 drop-shadow-lg">
-                                    <Image src={item.img} alt="hello" />
+                                    <Image src={item.img} alt="hello" placeholder="blur"/>
                                 </div>
 
                                 <div className="py-8 md:col-span-2 md:self-end md:-mb-6">
@@ -51,8 +51,8 @@ const Portfolio = () => {
                                 <div className="mt-10 md:col-span-3">
                                     <div className="relative py-3">
                                         <div className="absolute inset-0 bg-gradient-to-r from-primary to-blue-400 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-                                        <div className="relative drop-shadow-lg md:rounded-lg">
-                                            <Image src={item.img} alt="hello"/>
+                                        <div className="relative drop-shadow-lg">
+                                            <Image className="md:rounded-2xl" src={item.img} alt="hello" placeholder="blur"/>
                                         </div>
                                     </div>
                                 </div>

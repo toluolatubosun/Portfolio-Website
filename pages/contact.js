@@ -62,7 +62,7 @@ const Contact = () => {
                         <div className="mx-10 md:mx-32 md:mb-8 md:flex md:justify-center shadow-md py-8 mt-8">
                             <div className="sm:inline-flex sm:items-center mx-4 space-x-4 mb-10 md:mb-0">
                                 <div className="w-2/12 sm:w-1/12 ml-2">
-                                    <Image alt="email" src={img_mention}/>
+                                    <Image alt="email" src={img_mention} priority/>
                                 </div>
 
                                 <div>
@@ -73,7 +73,7 @@ const Contact = () => {
 
                             <div className="sm:inline-flex sm:items-center mx-4 space-x-4 mb-2 md:mb-0">
                                 <div className="w-2/12 sm:w-1/12 ml-2">
-                                    <Image alt="location_pin" src={img_location_pin}/>
+                                    <Image alt="location_pin" src={img_location_pin} priority/>
                                 </div>
 
                                 <div>
