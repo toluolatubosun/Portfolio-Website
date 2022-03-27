@@ -15,6 +15,7 @@ const Portfolio = () => {
                 <p className="text-center text-xl">my works...</p>
 
                 <div className="mx-8 md:mx-24 mt-10 md:mt-16">
+                    {/* Simple */}
                     {
                         portfolio.map(item => (
                             <div className="mb-8 md:mb-20 md:grid md:grid-cols-5 md:gap-x-8" key={item.id}>
@@ -42,6 +43,7 @@ const Portfolio = () => {
                         ))
                     }
 
+                    {/* Stylistic */}
                     {
                         portfolio.map(item => (
                             <div className="mb-8 md:mb-20 md:grid md:grid-cols-5 md:gap-x-20" key={item.id}>

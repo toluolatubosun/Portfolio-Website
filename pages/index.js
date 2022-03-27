@@ -20,7 +20,7 @@ export default function Home() {
 					<div className="text-center text-lg lg:text-left sm:text-xl text-gray-500 lg:pr-40 leading-relaxed">
 						<Typewriter
 							options={{
-								strings: ['Full Stack Software Developer', 'Crypto & Blockchain Enthusiast', 'JavaScript Dev','Lover of Christ'],
+								strings: ['Full Stack Software Developer', 'Crypto & Blockchain Enthusiast', 'BE Heavy Dev','Lover of Christ'],
 								autoStart: true,
 								loop: true,
 							}}

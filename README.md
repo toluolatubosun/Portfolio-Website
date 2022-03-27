@@ -5,5 +5,4 @@
 - Tailwind CSS
 
 ## TO DO
-- favicon
 - portfolio page
