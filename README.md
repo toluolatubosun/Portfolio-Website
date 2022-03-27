@@ -5,5 +5,5 @@
 - Tailwind CSS
 
 ## TO DO
-- head tags
+- favicon
 - portfolio page
