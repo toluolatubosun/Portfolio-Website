@@ -14,7 +14,7 @@ const Portfolio = () => {
                 <h1 className="text-5xl text-center font-semibold text-gray-700 tracking-wider self-center"><span className="text-primary">My</span> Portfolio</h1>
                 <p className="text-center text-xl">my works...</p>
 
-                <div className="mx-8 md:mx-24 mt-10 md:mt-16 -mb-8 md:-mb-20">
+                <div className="mx-8 md:mx-24 mt-16 md:mt-20">
                     {/* Simple */}
                     {
                         portfolio.map(item => (
@@ -44,7 +44,7 @@ const Portfolio = () => {
                     }
 
                     {/* Stylistic */}
-                    {
+                    {/* {
                         portfolio.map(item => (
                             <div className="mb-8 md:mb-20 md:grid md:grid-cols-5 md:gap-x-20" key={item.id}>
 
@@ -74,9 +74,8 @@ const Portfolio = () => {
                                 </div>
                             </div>
                         ))
-                    }
+                    } */}
                 </div>
-                
             </section>
         </div>
         </>
