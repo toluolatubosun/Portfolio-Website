@@ -13,7 +13,7 @@ const About = () => {
         <Head>
             <title>About - John Olatubosun</title>
         </Head>
-        <div className="mt-28">
+        <div>
             { /* About me */ }
             <section>
                 <h1 className="text-5xl text-center font-semibold text-primary tracking-wider self-center"><span className="text-gray-700">About</span> me</h1>
@@ -95,7 +95,7 @@ const About = () => {
             </section>
 
             { /* Skills */ }
-            <section className="mt-14 md:mt-20 mb-20">
+            <section className="mt-14 md:mt-20">
                 <h1 className="text-5xl text-center font-semibold text-primary tracking-wider self-center"><span className="text-gray-700">Skill</span> Sets</h1>
                 <p className="text-center text-xl">procficiency...</p>
 

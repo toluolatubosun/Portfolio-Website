@@ -51,7 +51,7 @@ const Contact = () => {
         <Head>
             <title>Contact - John Olatubosun</title>
         </Head>
-        <div className="mt-28">
+        <div>
             <section>
                 <div>
                     <h1 className="text-5xl text-center font-semibold text-primary tracking-wider self-center"><span className="text-gray-700">Contact</span> me</h1>
@@ -85,7 +85,7 @@ const Contact = () => {
                     </div>
 
                     {/* Contact Form */}
-                    <div className="mx-10 md:mx-32 mb-16">
+                    <div className="mx-10 md:mx-32">
                         <form onSubmit={HandleSubmit}>
                             <div className="md:grid md:grid-cols-2 gap-x-8">
                                 <div className="mt-4">

@@ -9,12 +9,12 @@ const Portfolio = () => {
         <Head>
             <title>Portfolio - John Olatubosun</title>
         </Head>
-        <div className="mt-28">
+        <div>
             <section>
                 <h1 className="text-5xl text-center font-semibold text-gray-700 tracking-wider self-center"><span className="text-primary">My</span> Portfolio</h1>
                 <p className="text-center text-xl">my works...</p>
 
-                <div className="mx-8 md:mx-24 mt-10 md:mt-16">
+                <div className="mx-8 md:mx-24 mt-10 md:mt-16 -mb-8 md:-mb-20">
                     {/* Simple */}
                     {
                         portfolio.map(item => (

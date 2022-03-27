@@ -5,4 +5,5 @@
 - Tailwind CSS
 
 ## TO DO
-- portfolio page
+- portfolio list style ?
+- secondary color ?
