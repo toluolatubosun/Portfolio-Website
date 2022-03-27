@@ -1,13 +1,19 @@
 import Typewriter from 'typewriter-effect';
 import Image from 'next/image'
+import Head from "next/head"
 
 // images
 import img_programming from '../public/programming.svg'
 
 export default function Home() {
   return (
-    <div>
-      	<main className="bg-white font-open-sans">
+
+	<>
+	<Head>
+		<title>Home - John Olatubosun</title>
+	</Head>
+	<div>
+		<main className="bg-white font-open-sans">
 			<div className="container mx-auto px-8 py-24 lg:py-20 relative flex flex-col lg:flex-row items-center">
 				<div className="lg:w-1/2 flex flex-col items-center lg:items-start">
 					<h1 className="text-center lg:text-left text-3xl sm:text-4xl text-gray-700 leading-tight mb-4">Hello, I&apos;m <span className="font-semibold block mt-2 text-primary text-4xl sm:text-5xl">John Olatubosun</span></h1>
@@ -28,7 +34,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-      	</main>
+		</main>
 		
 		<div className="mb-8 flex justify-center">
 			<a download href="/Olatubosun_John_Resume.pdf">
@@ -38,6 +44,7 @@ export default function Home() {
 				</button>
 			</a>
 		</div>
-    </div>
+	</div>
+	</>
   )
 }

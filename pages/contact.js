@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Image from 'next/image'
+import Head from "next/head"
 
 import img_mention from '../public/contact/mention.svg'
 import img_location_pin from '../public/contact/location_pin.svg'
@@ -45,7 +46,11 @@ const Contact = () => {
         }, 3000)
     }
 
-    return ( 
+    return (
+        <>
+        <Head>
+            <title>Contact - John Olatubosun</title>
+        </Head>
         <div className="mt-28">
             <section>
                 <div>
@@ -198,6 +203,7 @@ const Contact = () => {
 
             </section>
         </div>
+        </> 
 
     );
 }

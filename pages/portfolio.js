@@ -1,9 +1,14 @@
 import Image from "next/image"
+import Head from "next/head"
 import portfolio from '../data/portfolio'
 
 const Portfolio = () => {
 
     return ( 
+        <>
+        <Head>
+            <title>Portfolio - John Olatubosun</title>
+        </Head>
         <div className="mt-28">
             <section>
                 <h1 className="text-5xl text-center font-semibold text-gray-700 tracking-wider self-center"><span className="text-primary">My</span> Portfolio</h1>
@@ -72,6 +77,7 @@ const Portfolio = () => {
                 
             </section>
         </div>
+        </>
     );
 }
  

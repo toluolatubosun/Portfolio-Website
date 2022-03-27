@@ -5,5 +5,5 @@
 - Tailwind CSS
 
 ## TO DO
-- preloader
+- head tags
 - portfolio page

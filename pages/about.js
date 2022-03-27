@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Head from "next/head"
 
 // Images
 import img_accept from '../public/about/accept.svg'
@@ -8,6 +9,10 @@ import img_man from '../public/about/man.svg'
 
 const About = () => {
     return ( 
+        <>
+        <Head>
+            <title>About - John Olatubosun</title>
+        </Head>
         <div className="mt-28">
             { /* About me */ }
             <section>
@@ -200,6 +205,7 @@ const About = () => {
  
             </section>
         </div>
+        </>
     );
 }
  
