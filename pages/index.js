@@ -12,7 +12,7 @@ export default function Home() {
 	<Head>
 		<title>Home - John Olatubosun</title>
 	</Head>
-	<div className="-mt-28">
+	<div className="-mt-24">
 		<main className="font-open-sans">
 			<div className="container mx-auto px-8 py-24 lg:py-20 relative flex flex-col lg:flex-row items-center">
 				<div className="lg:w-1/2 flex flex-col items-center lg:items-start">

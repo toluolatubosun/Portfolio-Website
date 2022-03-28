@@ -18,7 +18,7 @@ const Portfolio = () => {
                     {/* Simple */}
                     {
                         portfolio.map(item => (
-                            <div className="mb-8 md:mb-20 md:grid md:grid-cols-5 md:gap-x-8" key={item.id}>
+                            <div className="mb-12 md:mb-24 md:grid md:grid-cols-5 md:gap-x-8" key={item.id}>
                                 
                                 <div className="md:col-span-3 drop-shadow-lg">
                                     <Image src={item.img} alt="hello" placeholder="blur"/>
@@ -28,7 +28,7 @@ const Portfolio = () => {
                                     <div className="text-primary text-2xl leading-5 mb-4">{item.title}</div>
                                     <div className="text-gray-700">{item.description}</div>
 
-                                    <div className="mt-8 md:mt-6 flex justify-center md:justify-start">
+                                    <div className="mt-6 md:mt-4 flex justify-center md:justify-start">
                                         <a rel="noreferrer" target="_blank" href={item.url}>
                                             <button className="bg-gradient-to-br from-primary to-blue-400  text-xl text-white font-semibold py-4 px-6 rounded inline-flex space-x-4 items-center">
                                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
