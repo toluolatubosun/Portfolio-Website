@@ -1,9 +1,7 @@
 # Portfolio Website
 
+My portfolio website
+
 ## STACK
 - Next js
 - Tailwind CSS
-
-## TO DO
-- portfolio list style ?
-- secondary color ?

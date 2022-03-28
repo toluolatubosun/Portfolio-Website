@@ -55,7 +55,7 @@ module.exports = [
     {
         id: 7894,
         title: "F & D Cosmetics Website",
-        description: "F & D Cosmetics is a one of the top store for cosmetic products. This website displays thier products",
+        description: "F & D Cosmetics is a major for cosmetic products. This website displays thier products",
         img: img_fd_cosmetics,
         url: "https://fd-cosmetics.web.app/"
     },
