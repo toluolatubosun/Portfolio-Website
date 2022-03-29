@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
 
                 <div className="text-sm text-center text-white mb-1 f-f-l">
-                    <p className="focus:outline-none">All rights reserved {`&copy;`} {(new Date().getFullYear())}</p>
+                    <p className="focus:outline-none">All rights reserved &copy; {(new Date().getFullYear())}</p>
                 </div>
             </div>
         </footer>
