@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }) {
 		</Layout>
 		
 		{/* Google Analytics Tags */}
-		<Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=UA-184078213-1" />
+		<Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-SXWHR9BKL1" />
 		<Script strategy="lazyOnload" src="/js/analytics.js" />
 		</>
   	)
