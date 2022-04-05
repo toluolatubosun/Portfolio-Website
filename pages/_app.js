@@ -7,10 +7,6 @@ function MyApp({ Component, pageProps }) {
   	return (	
 		<>
 		<Head>
-			{/* Google Analytics Tags */}
-			<Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=UA-184078213-1`} />
-			<Script strategy="lazyOnload" src="/js/analytics.js" />
-
 			{/* Primary Meta Tags */}
 			<title>John Olatubosun</title>
 			<meta name="title" content="John Olatubosun - Portfolio Website" />
@@ -34,9 +30,14 @@ function MyApp({ Component, pageProps }) {
 			<meta property="twitter:description" content="Full Stack Developer, BE Heavy, Crypto and Blockchain Enthusiast, Lover Of Christ" />
 			<meta property="twitter:image" content="https://www.toluolatubosun.com/site_preview.png" />
 		</Head>
+
 		<Layout>
     		<Component {...pageProps} />
 		</Layout>
+		
+		{/* Google Analytics Tags */}
+		<Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=UA-184078213-1`} />
+		<Script strategy="lazyOnload" src="/js/analytics.js" />
 		</>
   	)
 }
