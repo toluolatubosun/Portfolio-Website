@@ -1,11 +1,16 @@
 import '../styles/globals.css'
 import Head from "next/head"
 import Layout from "../components/Layout";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   	return (	
 		<>
 		<Head>
+			{/* Google Analytics Tags */}
+			<Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=UA-184078213-1`} />
+			<Script strategy="lazyOnload" src="/js/analytics.js" />
+
 			{/* Primary Meta Tags */}
 			<title>John Olatubosun</title>
 			<meta name="title" content="John Olatubosun - Portfolio Website" />
