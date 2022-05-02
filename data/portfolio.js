@@ -1,17 +1,24 @@
-import img_portfolio_website from '../public/portfolio/portfolio_website.png'
-import img_n_time from '../public/portfolio/n_time.png'
-import img_domathz from '../public/portfolio/domathz.png'
-import img_notes_app from '../public/portfolio/notes_app.png'
-import img_word_find_naija from '../public/portfolio/word_find_naija.png'
-import img_ip_locator from '../public/portfolio/ip_locator.png'
-import img_fd_cosmetics from '../public/portfolio/fd_cosmetics.png'
-import img_world_time from '../public/portfolio/world_time.png'
-import img_chat_app from '../public/portfolio/chat_app.png'
-import img_todo_list from '../public/portfolio/todo_list.png'
+import img_portfolio_website from "../public/portfolio/portfolio_website.png";
+import img_n_time from "../public/portfolio/n_time.png";
+import img_domathz from "../public/portfolio/domathz.png";
+import img_notes_app from "../public/portfolio/notes_app.png";
+import img_word_find_naija from "../public/portfolio/word_find_naija.png";
+import img_ip_locator from "../public/portfolio/ip_locator.png";
+import img_fd_cosmetics from "../public/portfolio/fd_cosmetics.png";
+import img_world_time from "../public/portfolio/world_time.png";
+import img_chat_app from "../public/portfolio/chat_app.png";
+import img_todo_list from "../public/portfolio/todo_list.png";
 
 module.exports = [
     {
         id: 4385,
+        title: "Portfolio Website",
+        description: "A website showcase my skills and projects",
+        img: img_portfolio_website,
+        url: "https://toluolatubosun.com"
+    },
+    {
+        id: 3976,
         title: "Portfolio Website",
         description: "A website showcase my skills and projects",
         img: img_portfolio_website,
@@ -27,7 +34,8 @@ module.exports = [
     {
         id: 7017,
         title: "Domathz",
-        description: "Domathz is a math-solver for students all over the world to help them solve mathematical problems and as well provide solutions to the questions to help them understand and love Mathematics.",
+        description:
+            "Domathz is a math-solver for students all over the world to help them solve mathematical problems and as well provide solutions to the questions to help them understand and love Mathematics.",
         img: img_domathz,
         url: "https://domathz.web.app"
     },
@@ -80,4 +88,4 @@ module.exports = [
         img: img_todo_list,
         url: "https://todooslist.web.app/"
     }
-]
+];

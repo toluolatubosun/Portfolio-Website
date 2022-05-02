@@ -1,27 +1,26 @@
-import Image from "next/image"
-import Head from "next/head"
-import portfolio from '../data/portfolio'
+import Image from "next/image";
+import Head from "next/head";
+import portfolio from "../data/portfolio";
 
 const Portfolio = () => {
-
-    return ( 
+    return (
         <>
-        <Head>
-            <title>Portfolio - John Olatubosun</title>
-        </Head>
-        <div>
-            <section>
-                <h1 className="text-5xl text-center font-semibold text-gray-700 tracking-wider self-center"><span className="text-primary">My</span> Portfolio</h1>
-                <p className="text-center text-xl">my works...</p>
+            <Head>
+                <title>Portfolio - John Olatubosun</title>
+            </Head>
+            <div>
+                <section>
+                    <h1 className="text-5xl text-center font-semibold text-gray-700 tracking-wider self-center">
+                        <span className="text-primary">My</span> Portfolio
+                    </h1>
+                    <p className="text-center text-xl">my works...</p>
 
-                <div className="mx-8 md:mx-24 mt-16 md:mt-20">
-                    {/* Simple */}
-                    {
-                        portfolio.map(item => (
+                    <div className="mx-8 md:mx-24 mt-16 md:mt-20">
+                        {/* Simple */}
+                        {portfolio.map((item) => (
                             <div className="mb-12 md:mb-24 md:grid md:grid-cols-5 md:gap-x-8" key={item.id}>
-                                
                                 <div className="md:col-span-3 drop-shadow-lg">
-                                    <Image src={item.img} alt="hello" placeholder="blur"/>
+                                    <Image src={item.img} alt="hello" placeholder="blur" />
                                 </div>
 
                                 <div className="py-8 md:col-span-2 md:self-end md:-mb-6">
@@ -40,11 +39,10 @@ const Portfolio = () => {
                                     </div>
                                 </div>
                             </div>
-                        ))
-                    }
+                        ))}
 
-                    {/* Stylistic */}
-                    {/* {
+                        {/* Stylistic */}
+                        {/* {
                         portfolio.map(item => (
                             <div className="mb-8 md:mb-20 md:grid md:grid-cols-5 md:gap-x-20" key={item.id}>
 
@@ -75,11 +73,11 @@ const Portfolio = () => {
                             </div>
                         ))
                     } */}
-                </div>
-            </section>
-        </div>
+                    </div>
+                </section>
+            </div>
         </>
     );
-}
- 
+};
+
 export default Portfolio;

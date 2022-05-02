@@ -3,5 +3,6 @@
 My portfolio website
 
 ## STACK
-- Next js
-- Tailwind CSS
+
+-   Next js
+-   Tailwind CSS

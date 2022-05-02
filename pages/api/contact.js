@@ -1,7 +1,7 @@
 const nodemailer = require("nodemailer");
 
 export default async function handler(req, res) {
-    if( req.method === 'POST'){
+    if (req.method === "POST") {
         const { fullName, email, subject, message } = req.body;
 
         if (!fullName || !email || !subject || !message) {
@@ -12,15 +12,15 @@ export default async function handler(req, res) {
             service: "gmail",
             auth: {
                 user: "toluolatubosun@gmail.com",
-                pass: process.env.SMTP_PASSWORD,
-            },
+                pass: process.env.SMTP_PASSWORD
+            }
             // For localhost
             // tls: {
             //     // do not fail on invalid certs
             //     rejectUnauthorized: false,
             // },
         });
-        
+
         const mailOptions = {
             from: email,
             to: "toluolatubosun@gmail.com",
@@ -35,7 +35,7 @@ export default async function handler(req, res) {
                 <h3>${subject}</h3>
                 <h2>Message:</h2>
                 <h3>${message}</h3>
-            `,
+            `
         };
 
         try {
@@ -49,9 +49,7 @@ export default async function handler(req, res) {
         } catch (error) {
             return res.status(500).json({ error: error.message });
         }
-
-    }else{
-        res.redirect('/')
+    } else {
+        res.redirect("/");
     }
 }
-  
