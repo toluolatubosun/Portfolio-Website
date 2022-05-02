@@ -1,4 +1,5 @@
 import img_portfolio_website from "../public/portfolio/portfolio_website.png";
+import img_mysvote from "../public/portfolio/mysvote.png";
 import img_n_time from "../public/portfolio/n_time.png";
 import img_domathz from "../public/portfolio/domathz.png";
 import img_notes_app from "../public/portfolio/notes_app.png";
@@ -19,10 +20,10 @@ module.exports = [
     },
     {
         id: 3976,
-        title: "Portfolio Website",
-        description: "A website showcase my skills and projects",
-        img: img_portfolio_website,
-        url: "https://toluolatubosun.com"
+        title: "MySVote",
+        description: "MySvote is an online voting platform that allows you easily setup and manage online elections. It is highly secure, customizable and easy to use",
+        img: img_mysvote,
+        url: "https://mysvote.com"
     },
     {
         id: 5135,
