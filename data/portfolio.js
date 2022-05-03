@@ -21,7 +21,7 @@ module.exports = [
     {
         id: 3976,
         title: "MySVote",
-        description: "MySvote is an online voting platform that allows you easily setup and manage online elections. It is highly secure, customizable and easy to use",
+        description: "MySvote is an e-voting platform that allows you easily setup and manage elections. It is very secure and customizable.",
         img: img_mysvote,
         url: "https://mysvote.com"
     },
@@ -36,7 +36,7 @@ module.exports = [
         id: 7017,
         title: "Domathz",
         description:
-            "Domathz is a math-solver for students all over the world to help them solve mathematical problems and as well provide solutions to the questions to help them understand and love Mathematics.",
+            "Domathz is a math-solver application that helps students solve mathematical problems and as well provide detailed solutions",
         img: img_domathz,
         url: "https://domathz.web.app"
     },
@@ -50,7 +50,7 @@ module.exports = [
     {
         id: 1725,
         title: "Word Find Naija",
-        description: "Word Find Naija is an easy-to-play puzzle game for Nigerians. The goal is to find all the Nigerian slangs and trending words to complete a stage.",
+        description: "Word Find Naija is an easy-to-play puzzle game for Nigerians. The goal is to Nigerian slangs and trending words.",
         img: img_word_find_naija,
         url: "https://oandoideas.github.io/word-find-naija/"
     },
@@ -83,7 +83,7 @@ module.exports = [
         url: "https://chatty-appy.herokuapp.com/public"
     },
     {
-        id: 9956,
+        id: 3600,        
         title: "To-do List",
         description: "To-do List helps you monitor your tasks and saves them locally so you can access them anytime",
         img: img_todo_list,

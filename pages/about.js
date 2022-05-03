@@ -16,12 +16,12 @@ const About = () => {
             <div>
                 {/* About me */}
                 <section>
-                    <h1 className="text-5xl text-center font-semibold text-primary tracking-wider self-center">
+                    <h1 className="text-4xl text-center font-semibold text-primary tracking-wider self-center">
                         <span className="text-gray-700">About</span> me
                     </h1>
                     <p className="text-center text-xl">the story...</p>
 
-                    <div className="md:flex md:mx-20 mx-8 md:justify-items-center md:items-center md:grid md:grid-cols-3 mt-12">
+                    <div className="lg:mx-20 mx-8 md:justify-items-center md:items-center md:grid md:grid-cols-3 mt-12">
                         <div className="mx-auto opacity-75 mb-8 md:mb-0 w-2/4 md:w-1/4 md:col-span-1">
                             <Image alt="man" src={img_man} priority />
                         </div>
@@ -36,13 +36,13 @@ const About = () => {
                 </section>
 
                 {/* Services */}
-                <section className="mt-14 md:mt-20">
-                    <h1 className="text-5xl text-center font-semibold text-gray-700 tracking-wider self-center">
+                <section className="mt-14">
+                    <h1 className="text-4xl text-center font-semibold text-gray-700 tracking-wider self-center">
                         <span className="text-primary">My</span> Services
                     </h1>
                     <p className="text-center text-xl">what I Offer...</p>
 
-                    <div className="mb-24 rounded-md shadow-md md:flex md:space-x-10 md:grid md:grid-cols-5 items-center py-8 px-8 md:px-16 md:mx-20 mt-16">
+                    <div className="mb-24 rounded-md shadow-md md:space-x-10 md:grid md:grid-cols-5 items-center py-8 px-8 lg:px-16 lg:mx-20 mt-">
                         <div className="md:col-span-1">
                             <div className="grid justify-items-center mb-8">
                                 <div>
@@ -60,7 +60,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="mb-24 rounded-md shadow-md md:flex md:space-x-10 md:grid md:grid-cols-5 items-center py-8 px-8 md:px-16 md:mx-20 mt-16">
+                    <div className="mb-24 rounded-md shadow-md md:space-x-10 md:grid md:grid-cols-5 items-center py-8 px-8 lg:px-16 lg:mx-20 mt-16">
                         <div className="md:col-span-1">
                             <div className="grid justify-items-center mb-8">
                                 <div>
@@ -78,7 +78,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="mb-24 rounded-md shadow-md md:flex md:space-x-10 md:grid md:grid-cols-5 items-center py-8 px-8 md:px-16 md:mx-20 mt-16">
+                    <div className="mb-24 rounded-md shadow-md md:space-x-10 md:grid md:grid-cols-5 items-center py-8 px-8 lg:px-16 lg:mx-20 mt-16">
                         <div className="md:col-span-1">
                             <div className="grid justify-items-center mb-8">
                                 <div>
@@ -98,13 +98,13 @@ const About = () => {
                 </section>
 
                 {/* Skills */}
-                <section className="mt-14 md:mt-20">
-                    <h1 className="text-5xl text-center font-semibold text-primary tracking-wider self-center">
+                <section className="mt-14">
+                    <h1 className="text-4xl text-center font-semibold text-primary tracking-wider self-center">
                         <span className="text-gray-700">Skill</span> Sets
                     </h1>
                     <p className="text-center text-xl">procficiency...</p>
 
-                    <div className="mt-16 mx-8 md:grid md:grid-cols-2 md:gap-x-8 md:mx-24">
+                    <div className="mt-16 mx-8 md:grid md:grid-cols-2 md:gap-x-8 lg:mx-24">
                         <div className="mb-8">
                             <div className="flex justify-between mb-1">
                                 <span className="text-base md:text-lg font-medium text-primary">HTML - CSS</span>
