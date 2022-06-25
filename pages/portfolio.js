@@ -54,8 +54,7 @@ const Portfolio = () => {
                         )}
 
                         {/* Stylistic */}
-                        {/* {
-                        portfolio.map(item => (
+                        {/* 
                             <div className="mb-8 md:mb-20 md:grid md:grid-cols-5 md:gap-x-20" key={item.id}>
 
                                 <div className="mt-10 md:col-span-3">
@@ -83,8 +82,7 @@ const Portfolio = () => {
                                     </div>
                                 </div>
                             </div>
-                        ))
-                    } */}
+                        */}
                     </div>
 
                     {/* Pagination */}
@@ -109,7 +107,7 @@ const Portfolio = () => {
                                 <span>Previous</span>
                             </button>
 
-                            <div className="font-medium">{page}</div>
+                            <div className="font-medium">{page} / {maxPage}</div>
 
                             <button
                                 onClick={() => {

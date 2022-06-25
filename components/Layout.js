@@ -45,11 +45,9 @@ const Layout = ({ children }) => {
 
             <div className={loading ? "hidden" : ""}>
                 <div className="font-Montserrat flex flex-col h-screen">
-                    <div className="">
-                        <Navbar />
-                        <div className="flex-grow break-words mt-28 mb-20">{children}</div>
-                        <Footer />
-                    </div>
+                    <Navbar />
+                    <div className="flex-grow break-words mt-28 mb-20">{children}</div>
+                    <Footer />
                 </div>
             </div>
         </>

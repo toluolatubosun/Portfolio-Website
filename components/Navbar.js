@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { useState } from "react";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
 import Image from "next/image";
+import { useRouter } from "next/router";
+import { useState, useEffect } from "react";
 
 import img_logo_blue from "../public/logo/blue_background.png";
 
@@ -19,7 +18,7 @@ const Navbar = () => {
 
     return (
         <nav className="bg-primary text-white lg:text-lg fixed inset-x-0 z-10">
-            <div className="max-w-6xl mx-auto px-4">
+            <div className="mx-10 md:mx-20 px-4">
                 <div className="flex justify-between">
                     {/* <!-- logo --> */}
                     <div>
@@ -35,9 +34,9 @@ const Navbar = () => {
                         <Link href="/" passHref className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">
                             Home
                         </Link>
-                        <Link href="/about" passHref className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">
+                        {/* <Link href="/about" passHref className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">
                             About
-                        </Link>
+                        </Link> */}
                         <Link href="/portfolio" passHref className="py-5 cursor-pointer px-3 text-gray-700 hover:text-gray-900">
                             Portfolio
                         </Link>
@@ -62,9 +61,9 @@ const Navbar = () => {
                 <Link href="/" passHref>
                     <p className="block py-2 px-4 text-m hover:bg-white hover:text-primary">Home</p>
                 </Link>
-                <Link href="/about" passHref>
+                {/* <Link href="/about" passHref>
                     <p className="block py-2 px-4 text-m hover:bg-white hover:text-primary">About</p>
-                </Link>
+                </Link> */}
                 <Link href="/portfolio" passHref>
                     <p className="block py-2 px-4 text-m hover:bg-white hover:text-primary">Portfolio</p>
                 </Link>
