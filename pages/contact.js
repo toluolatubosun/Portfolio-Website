@@ -34,15 +34,13 @@ const Contact = () => {
             if (response.status === 200) {
                 setFormState({ success: true, error: false, loading: false });
                 setFormData({ fullName: "", email: "", subject: "", message: "" });
+            } else {
+                setFormState({ success: false, error: true, loading: false });
             }
         } catch (error) {
-            console.log("a");
+            console.log("An Error Occurred: ", error);
             setFormState({ success: false, error: true, loading: false });
         }
-
-        setTimeout(() => {
-            setFormState({ success: false, error: false, loading: false });
-        }, 3000);
     };
 
     return (
@@ -69,7 +67,7 @@ const Contact = () => {
                                     <p className="text-xl font-medium text-gray-700">Lagos, Nigeria</p>
                                 </a>
                             </div>
-            
+
                             <div className="col-span-3 md:col-span-1">
                                 <div className="flex justify-center text-secondary">
                                     <AiOutlineMail className="text-4xl" />

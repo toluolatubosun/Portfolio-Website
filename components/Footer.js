@@ -33,13 +33,11 @@ const Footer = () => {
                         </a>
                     </li>
                 </ul>
-            </div>     
+            </div>
 
             <div className="text-center text-white">
-                <p className="text-base">
-                    &copy; {new Date().getFullYear()} John Olatubosun
-                </p>
-            </div> 
+                <p className="text-base">&copy; {new Date().getFullYear()} John Olatubosun</p>
+            </div>
         </footer>
     );
 };

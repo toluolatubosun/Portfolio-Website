@@ -35,8 +35,7 @@ module.exports = [
     {
         id: 7017,
         title: "Domathz",
-        description:
-            "Domathz is a math-solver application that helps students solve mathematical problems and as well provide detailed solutions",
+        description: "Domathz is a math-solver application that helps students solve mathematical problems and as well provide detailed solutions",
         img: img_domathz,
         url: "https://domathz.web.app"
     },
@@ -83,7 +82,7 @@ module.exports = [
         url: "https://chatty-appy.herokuapp.com/public"
     },
     {
-        id: 3600,        
+        id: 3600,
         title: "To-do List",
         description: "To-do List helps you monitor your tasks and saves them locally so you can access them anytime",
         img: img_todo_list,
