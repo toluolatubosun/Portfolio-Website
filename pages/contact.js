@@ -173,19 +173,19 @@ const Contact = () => {
                             </div>
 
                             {formState.loading && (
-                                <div className="mt-6 bg-primary rounded-lg text-center py-4 px-4 text-xl text-white mb-3" role="alert">
+                                <div className="font-bold tracking-wider mt-6 bg-primary rounded-sm text-center py-4 px-4 text-xl text-white mb-3">
                                     Processing... Please Wait
                                 </div>
                             )}
 
                             {formState.error && (
-                                <div className="mt-6 bg-red-500 rounded-lg text-center py-4 px-4 text-xl text-white mb-3" role="alert">
-                                    An Error Occured, Try Again.
+                                <div className="font-bold tracking-wider mt-6 bg-red-500 rounded-sm text-center py-4 px-4 text-xl text-white mb-3">
+                                    An Error Occurred, Try Again.
                                 </div>
                             )}
 
                             {formState.success && (
-                                <div className="mt-6 bg-green-500 rounded-lg text-center py-4 px-4 text-xl text-white mb-3" role="alert">
+                                <div className="font-bold tracking-wider mt-6 bg-green-500 rounded-sm text-center py-4 px-4 text-xl text-white mb-3">
                                     Message Sent
                                 </div>
                             )}
