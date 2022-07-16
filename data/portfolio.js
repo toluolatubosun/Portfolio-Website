@@ -20,7 +20,7 @@ module.exports = [
     },
     {
         id: 3976,
-        title: "MySVote",
+        title: "Mysvote",
         description: "MySvote is an e-voting platform that allows you easily setup and manage elections. It is very secure and customizable.",
         img: img_mysvote,
         url: "https://mysvote.com"
