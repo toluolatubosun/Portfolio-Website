@@ -1,46 +1,36 @@
+import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import { useState, useEffect } from "react";
-import { Transition } from "@tailwindui/react";
 import { useRouter } from "next/router";
-import Image from "next/image";
-
-import loader from "../public/loader.svg";
 
 const Layout = ({ children }) => {
     const router = useRouter();
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = React.useState(true);
 
-    setTimeout(() => {
-        setLoading(false);
-    }, 500);
+    const LoadingComplete = () => {
+        setTimeout(() => {
+            setLoading(false);
+        }, 1000);
+    };
 
-    useEffect(() => {
-        router.events.on("routeChangeComplete", (url, { shallow }) => {
+    React.useEffect(() => {
+        LoadingComplete();
+
+        router.events.on("routeChangeComplete", () => {
             setLoading(true);
+        });
+        router.events.on("routeChangeComplete", () => {
+            LoadingComplete();
+        });
+        router.events.on("routeChangeError", () => {
+            LoadingComplete();
         });
     }, []);
 
     return (
         <>
-            <div>
-                <Transition
-                    show={loading}
-                    enter="transition-opacity duration-75"
-                    enterFrom="opacity-0"
-                    enterTo="opacity-100"
-                    leave="transition-opacity duration-500"
-                    leaveFrom="opacity-100"
-                    leaveTo="opacity-0"
-                >
-                    <div className="flex h-screen flex-col justify-center bg-primary">
-                        <div className="flex justify-center">
-                            <div className="animate-pulse">
-                                <Image width={500} height={500} src={loader} alt="loader" />
-                            </div>
-                        </div>
-                    </div>
-                </Transition>
+            <div className={`${loading ? "" : "hidden "} loading-animation`}>
+                <h1>Loading</h1>
             </div>
 
             <div className={loading ? "hidden" : ""}>

@@ -9,19 +9,8 @@ body {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-    width: 7px;
-    color: #33ccff;
-    transition: all 0.4s ease;
-}
-::-webkit-scrollbar-thumb {
-    background: #33ccff;
-    border-radius: 7px;
-    width: 7px;
-    transition: all 0.4s ease;
-}
-::-webkit-scrollbar-track {
-    background: #f2f2f2;
-    border-radius: 7px;
-    width: 7px;
-}
+/*
+ * Custom Styles
+ */
+@import url("scroll-bar.css");
+@import url("loading-animation.css");

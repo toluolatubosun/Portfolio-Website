@@ -6,10 +6,10 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "prettier": "prettier --write ."
     },
     "dependencies": {
-        "@tailwindui/react": "^0.1.1",
         "next": "12.1.0",
         "nodemailer": "^6.7.3",
         "react": "17.0.2",
