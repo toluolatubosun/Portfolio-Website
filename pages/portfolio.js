@@ -6,8 +6,8 @@ import portfolio from "../data/portfolio";
 
 const Portfolio = () => {
     // Choice Table pagination
-    const [numberPerPage, setNumberPerPage] = React.useState(8);
     const [page, setPage] = React.useState(1);
+    const [numberPerPage, setNumberPerPage] = React.useState(10);
     const [maxPage, setMaxPage] = React.useState(Math.ceil(portfolio.length / numberPerPage));
 
     return (

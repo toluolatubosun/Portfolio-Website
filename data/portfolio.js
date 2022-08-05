@@ -9,6 +9,7 @@ import img_fd_cosmetics from "../public/portfolio/fd_cosmetics.png";
 import img_world_time from "../public/portfolio/world_time.png";
 import img_chat_app from "../public/portfolio/chat_app.png";
 import img_todo_list from "../public/portfolio/todo_list.png";
+import img_tubs_professionals from "../public/portfolio/tubs_professionals.png";
 
 module.exports = [
     {
@@ -61,9 +62,16 @@ module.exports = [
         url: "https://ip-address-locator.netlify.app/"
     },
     {
+        id: 3289,
+        title: "Tubs Professionals Website",
+        description: "Tubs Professionals are experienced financial consultants set up for delivery of world class financial services.",
+        img: img_tubs_professionals,
+        url: "https://tubsprofessionals.com/"
+    },
+    {
         id: 7894,
         title: "F & D Cosmetics Website",
-        description: "F & D Cosmetics is a major for cosmetic products. This website displays thier products",
+        description: "F & D Cosmetics is a major for cosmetic products. This website displays their products",
         img: img_fd_cosmetics,
         url: "https://fd-cosmetics.web.app/"
     },
