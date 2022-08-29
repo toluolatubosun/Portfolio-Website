@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="my-8">
                 <ul className="flex flex-col space-y-8 items-center md:flex-row md:space-y-0 md:justify-center md:space-x-10">
                     <li>
-                        <a href="https://twitter.com/johnolatubosun" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/king_tolu_7" target="_blank" rel="noopener noreferrer">
                             <FaTwitterSquare className="text-white text-5xl" />
                         </a>
                     </li>
