@@ -1,14 +1,14 @@
-import img_portfolio_website from "../public/portfolio/portfolio_website.png";
-import img_mysvote from "../public/portfolio/mysvote.png";
 import img_n_time from "../public/portfolio/n_time.png";
+import img_mysvote from "../public/portfolio/mysvote.png";
 import img_domathz from "../public/portfolio/domathz.png";
-import img_notes_app from "../public/portfolio/notes_app.png";
-import img_word_find_naija from "../public/portfolio/word_find_naija.png";
-import img_ip_locator from "../public/portfolio/ip_locator.png";
-import img_fd_cosmetics from "../public/portfolio/fd_cosmetics.png";
-import img_world_time from "../public/portfolio/world_time.png";
 import img_chat_app from "../public/portfolio/chat_app.png";
 import img_todo_list from "../public/portfolio/todo_list.png";
+import img_notes_app from "../public/portfolio/notes_app.png";
+import img_world_time from "../public/portfolio/world_time.png";
+import img_ip_locator from "../public/portfolio/ip_locator.png";
+import img_fd_cosmetics from "../public/portfolio/fd_cosmetics.png";
+import img_word_find_naija from "../public/portfolio/word_find_naija.png";
+import img_portfolio_website from "../public/portfolio/portfolio_website.png";
 import img_tubs_professionals from "../public/portfolio/tubs_professionals.png";
 
 module.exports = [
@@ -80,14 +80,14 @@ module.exports = [
         title: "World Time",
         description: "World Time displays the current date and time based on location or timezone",
         img: img_world_time,
-        url: "https://world-time-app.herokuapp.com/"
+        url: "https://world-time-app.onrender.com"
     },
     {
         id: 5462,
         title: "Chat Application",
         description: "A chat application that provides both public and private roms",
         img: img_chat_app,
-        url: "https://chatty-appy.herokuapp.com/public"
+        url: "https://node-chat-app-7tum.onrender.com/public"
     },
     {
         id: 3600,
