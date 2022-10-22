@@ -31,7 +31,7 @@ module.exports = [
         title: "N Time",
         description: "N Time is a web based application that allows users to monitor time and location changes to events",
         img: img_n_time,
-        url: "https://n-time.web.app"
+        url: "https://n-timee.web.app"
     },
     {
         id: 7017,
