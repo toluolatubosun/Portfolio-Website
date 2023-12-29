@@ -12,7 +12,7 @@ export default function Home() {
                 <title>Home - John Olatubosun</title>
             </Head>
             <div className="flex h-full">
-                <div className="my-auto">
+                <div className="my-auto w-full">
                     <div className="mx-6 lg:grid lg:grid-cols-2 lg:items-center lg:mx-24">
                         <div>
                             <h1 className="font-medium text-center text-xl text-gray-700 lg:text-left">
@@ -21,7 +21,7 @@ export default function Home() {
                             <div className="font-ligth text-center text-xl text-gray-700 mt-3 lg:text-left">
                                 <Typewriter
                                     options={{
-                                        strings: ["Full-Stack Developer", "AI & Machine Learning Enthusiast", "BE-Heavy Dev", "Lover of Christ"],
+                                        strings: ["Software Engineer", "Cloud Engineer", "AI & Data Scientist", "Lover of Christ"],
                                         autoStart: true,
                                         loop: true
                                     }}
@@ -29,22 +29,22 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="w-full mt-8 md:mt-12 lg:mt-0">
-                            <Image src={programming} alt="programming" priority />
+                        <div className="justify-self-center ">
+                            <div className="w-full mt-8 md:mt-12 lg:mt-0">
+                                <Image src={programming} alt="programming" priority />
+                            </div>
                         </div>
                     </div>
 
-                    <div className="flex mt-8 lg:mt-10">
-                        <div className="m-auto">
-                            <a href="/Olatubosun_John_Resume.pdf" download>
-                                <button className="bg-primary font-bold text-white text-xl rounded px-8 py-6 hover:text-primary hover:bg-white hover:ring-2 hover:ring-primary">
-                                    <div className="flex items-center space-x-4">
-                                        <AiOutlineCloudDownload />
-                                        <div>Download Resume</div>
-                                    </div>
-                                </button>
-                            </a>
-                        </div>
+                    <div className="flex items-center justify-center mt-8 lg:mt-10">
+                        <a href="/Olatubosun_John_Resume.pdf" download>
+                            <button className="bg-primary font-bold text-white text-xl rounded px-8 py-6 hover:text-primary hover:bg-white hover:ring-2 hover:ring-primary">
+                                <div className="flex items-center space-x-4">
+                                    <AiOutlineCloudDownload />
+                                    <div>Download Resume</div>
+                                </div>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
