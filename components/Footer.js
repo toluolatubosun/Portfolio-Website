@@ -1,4 +1,4 @@
-import { FaTwitterSquare, FaInstagramSquare, FaGithubSquare, FaLinkedin, FaMedium } from "react-icons/fa";
+import { FaTwitterSquare, FaInstagramSquare, FaGithubSquare, FaLinkedin, FaMedium, FaYoutubeSquare } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -30,6 +30,11 @@ const Footer = () => {
                     <li>
                         <a href="https://medium.com/@toluolatubosun" target="_blank" rel="noopener noreferrer">
                             <FaMedium className="text-white text-5xl" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@tolu-john" target="_blank" rel="noopener noreferrer">
+                            <FaYoutubeSquare className="text-white text-5xl" />
                         </a>
                     </li>
                 </ul>
