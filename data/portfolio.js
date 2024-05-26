@@ -1,3 +1,4 @@
+import img_gild from "../public/portfolio/gild.png";
 import img_n_time from "../public/portfolio/n_time.png";
 import img_mysvote from "../public/portfolio/mysvote.png";
 import img_domathz from "../public/portfolio/domathz.png";
@@ -13,87 +14,94 @@ import img_tubs_professionals from "../public/portfolio/tubs_professionals.png";
 
 module.exports = [
     {
-        id: 4385,
         title: "Portfolio Website",
         description: "A website showcase my skills and projects",
         img: img_portfolio_website,
+        skills: ["JavaScript", "Next.js", "Tailwind CSS"],
         url: "https://toluolatubosun.com"
     },
     {
-        id: 3976,
+        title: "Gild",
+        description: "Gild is a platform that facilitates cross-border money transfer, in a fast, secure and reliable manner.",
+        img: img_gild,
+        skills: ["TypeScript", "Node.js", "Apollo Server", "GraphQL", "Next.js", "Stripe", "MongoDB"],
+        url: "https://usegild.com"
+    },
+    {
         title: "Mysvote",
         description: "MySvote is an e-voting platform that allows you easily setup and manage elections. It is very secure and customizable.",
         img: img_mysvote,
+        skills: ["TypeScript", "Node.js", "Express", "Next.js", "MongoDB"],
         url: "https://mysvote.com"
     },
     {
-        id: 5135,
         title: "N Time",
         description: "N Time is a web based application that allows users to monitor time and location changes to events",
         img: img_n_time,
+        skills: ["JavaScript", "Node.js", "Express", "React", "MongoDB"],
         url: "https://n-timee.web.app"
     },
     {
-        id: 7017,
         title: "Domathz",
         description: "Domathz is a math-solver application that helps students solve mathematical problems and as well provide detailed solutions",
         img: img_domathz,
+        skills: ["HTML/CSS", "JavaScript", "Android/Java"],
         url: "https://domathz.web.app"
     },
     {
-        id: 3231,
         title: "Notes App",
         description: "A minimalistic productivity application for taking notes. It is fast and light-weight",
         img: img_notes_app,
+        skills: ["JavaScript", "CSS", "React Native"],
         url: "https://play.google.com/store/apps/details?id=com.toluolatubosun.notesapp"
     },
     {
-        id: 1725,
         title: "Word Find Naija",
         description: "Word Find Naija is an easy-to-play puzzle game for Nigerians. The goal is to Nigerian slangs and trending words.",
         img: img_word_find_naija,
+        skills: ["Quick App Ninja"],
         url: "https://oandoideas.github.io/word-find-naija/"
     },
     {
-        id: 3547,
         title: "IP Locator",
         description: "IP Locator displays your location based on your IP Address. Users can also find the location of other IP Addresses",
         img: img_ip_locator,
+        skills: ["JavaScript", "React", "API"],
         url: "https://ip-address-locator.netlify.app/"
     },
     {
-        id: 3289,
         title: "Tubs Professionals Website",
         description: "Tubs Professionals are experienced financial consultants set up for delivery of world class financial services.",
         img: img_tubs_professionals,
+        skills: ["JavaScript", "Next.js"],
         url: "https://tubsprofessionals.com/"
     },
     {
-        id: 7894,
         title: "F & D Cosmetics Website",
         description: "F & D Cosmetics is a major for cosmetic products. This website displays their products",
         img: img_fd_cosmetics,
+        skills: ["HTML/CSS", "JavaScript", "Mobirise"],
         url: "https://fd-cosmetics.web.app/"
     },
     {
-        id: 9956,
         title: "World Time",
         description: "World Time displays the current date and time based on location or timezone",
         img: img_world_time,
+        skills: ["JavaScript", "CSS", "Ejs", "API"],
         url: "https://world-time-app.onrender.com"
     },
     {
-        id: 5462,
         title: "Chat Application",
         description: "A chat application that provides both public and private roms",
         img: img_chat_app,
+        skills: ["JavaScript", "CSS", "Node.js", "Express", "Socket.io", "Ejs"],
         url: "https://node-chat-app-7tum.onrender.com/public"
     },
     {
-        id: 3600,
         title: "To-do List",
         description: "To-do List helps you monitor your tasks and saves them locally so you can access them anytime",
         img: img_todo_list,
+        skills: ["HTML/CSS", "TypeScript", "Webpack", "Materialize CSS"],
         url: "https://todooslist.web.app/"
     }
 ];

@@ -21,7 +21,7 @@ export default function Home() {
                             <div className="font-ligth text-center text-xl text-gray-700 mt-3 lg:text-left">
                                 <Typewriter
                                     options={{
-                                        strings: ["Software Engineer", "Cloud Engineer", "AI & Data Scientist", "Lover of Christ"],
+                                        strings: ["Software Engineer", "Cloud Engineer", "Roboticist", "AI & Data Scientist", "Lover of Christ"],
                                         autoStart: true,
                                         loop: true
                                     }}
@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
 
                     <div className="flex items-center justify-center mt-8 lg:mt-10">
-                        <a href="/Olatubosun_John_Resume.pdf" download>
+                        <a href="/John_Olatubosun__CV.pdf" download>
                             <button className="bg-primary font-bold text-white text-xl rounded px-8 py-6 hover:text-primary hover:bg-white hover:ring-2 hover:ring-primary">
                                 <div className="flex items-center space-x-4">
                                     <AiOutlineCloudDownload />

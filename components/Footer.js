@@ -8,16 +8,6 @@ const Footer = () => {
             <div className="my-8">
                 <ul className="flex flex-col space-y-8 items-center md:flex-row md:space-y-0 md:justify-center md:space-x-10">
                     <li>
-                        <a href="https://twitter.com/king_tolu_7" target="_blank" rel="noopener noreferrer">
-                            <FaTwitterSquare className="text-white text-5xl" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/king_tolu_/" target="_blank" rel="noopener noreferrer">
-                            <FaInstagramSquare className="text-white text-5xl" />
-                        </a>
-                    </li>
-                    <li>
                         <a href="https://github.com/toluolatubosun" target="_blank" rel="noopener noreferrer">
                             <FaGithubSquare className="text-white text-5xl" />
                         </a>
@@ -35,6 +25,16 @@ const Footer = () => {
                     <li>
                         <a href="https://www.youtube.com/@tolu-john" target="_blank" rel="noopener noreferrer">
                             <FaYoutubeSquare className="text-white text-5xl" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/king_tolu_7" target="_blank" rel="noopener noreferrer">
+                            <FaTwitterSquare className="text-white text-5xl" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/king_tolu_/" target="_blank" rel="noopener noreferrer">
+                            <FaInstagramSquare className="text-white text-5xl" />
                         </a>
                     </li>
                 </ul>
