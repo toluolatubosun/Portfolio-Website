@@ -8,7 +8,6 @@ import img_notes_app from "../public/portfolio/notes_app.png";
 import img_world_time from "../public/portfolio/world_time.png";
 import img_ip_locator from "../public/portfolio/ip_locator.png";
 import img_fd_cosmetics from "../public/portfolio/fd_cosmetics.png";
-import img_word_find_naija from "../public/portfolio/word_find_naija.png";
 import img_portfolio_website from "../public/portfolio/portfolio_website.png";
 import img_tubs_professionals from "../public/portfolio/tubs_professionals.png";
 
@@ -53,14 +52,7 @@ module.exports = [
         description: "A minimalistic productivity application for taking notes. It is fast and light-weight",
         img: img_notes_app,
         skills: ["JavaScript", "CSS", "React Native"],
-        url: "https://play.google.com/store/apps/details?id=com.toluolatubosun.notesapp"
-    },
-    {
-        title: "Word Find Naija",
-        description: "Word Find Naija is an easy-to-play puzzle game for Nigerians. The goal is to Nigerian slangs and trending words.",
-        img: img_word_find_naija,
-        skills: ["Quick App Ninja"],
-        url: "https://oandoideas.github.io/word-find-naija/"
+        url: "https://drive.google.com/drive/folders/14KKj-qYDrbvSGTONhhqVgPh6LoZ-Joar?usp=sharing"
     },
     {
         title: "IP Locator",
