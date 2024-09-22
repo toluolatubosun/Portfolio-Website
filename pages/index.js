@@ -18,10 +18,10 @@ export default function Home() {
                             <h1 className="font-medium text-center text-xl text-gray-700 lg:text-left">
                                 Hello, I&apos;m <span className="block mt-3 font-bold text-primary text-3xl">John Olatubosun</span>
                             </h1>
-                            <div className="font-ligth text-center text-xl text-gray-700 mt-3 lg:text-left">
+                            <div className="font-medium text-center text-xl text-gray-700 mt-3 lg:text-left">
                                 <Typewriter
                                     options={{
-                                        strings: ["Software Engineer", "Cloud Engineer", "Roboticist", "AI & Data Scientist", "Lover of Christ"],
+                                        strings: ["Software Engineer", "Cloud Engineer", "AI Engineer", "Roboticist", "Long-distance runner", "Lover of Christ"],
                                         autoStart: true,
                                         loop: true
                                     }}
